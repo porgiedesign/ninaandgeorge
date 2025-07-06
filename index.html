@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Wedding</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Nina 💖 George</h1>
+    <p>We're getting married!</p>
+  </header>
+
+  <section class="hero-image">
+    <img src="Placeholder.jpg" alt="Couple Photo"/>
+  </section>
+
+  <section class="details">
+    <h2>Wedding Details</h2>
+    <p>📍 Location: Fernblick, St. Corona am Wechsel</p>
+    <p>📅 Date: 04.06.2026</p>
+    <p>⏰ Time: 2:00 PM</p>
+  </section>
+
+  <section class="gallery">
+    <h2>Our Story</h2>
+    <div class="gallery-row">
+      <img src="Placeholder2.jpeg" alt="Memory 1"/>
+      <img src="Placeholder3.jpeg" alt="Memory 2"/>
+      <img src="Placeholder4.jpeg" alt="Memory 3"/>
+    </div>
+  </section>
+
+  <section class="map">
+  <h2>Location</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21528.149683556137!2d15.986852005911162!3d47.58687813341197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e79fa9932c1db%3A0xa159b830fd03484!2sFernblick!5e0!3m2!1sen!2sat!4v1751820405266!5m2!1sen!2sat"
+    width="100%"
+    height="300"
+    style="border:0; border-radius: 1rem;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+
+
+  <section class="rsvp">
+    <h2>RSVP</h2>
+    <form id="rsvpForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <select name="attendance" required>
+        <option value="">Will you attend?</option>
+        <option value="yes">Yes 🎉</option>
+        <option value="no">No 😢</option>
+      </select>
+      <textarea name="message" placeholder="Leave a message (optional)"></textarea>
+      <button type="submit">Send RSVP</button>
+    </form>
+    <p id="rsvpMessage"></p>
+  </section>
+
+  <footer>
+    <p>With love, Nina & George 💕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
